@@ -13,8 +13,8 @@ spec:
         app: PortfolioAuthorizationApi
     spec:
       containers:
-      - name: portfolioauthorizationrepos
-        image: myportfoliomanagementcr.azurecr.io/authapi:latest
+      - name: authapi
+        image: portfoliomanagementcr.azurecr.io/authapi:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
